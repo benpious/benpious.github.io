@@ -1,0 +1,10 @@
+---
+layout: post
+title: ornate2048 support
+date:  2014-4-3 15:59:12
+
+
+---
+
+For ornate2048 support please email ornate2048@gmail.com.
+
