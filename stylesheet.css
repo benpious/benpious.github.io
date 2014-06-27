@@ -1,0 +1,57 @@
+body {
+	
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+
+#content {
+
+    position: absolute;
+    top: 50%;
+	padding: 20px;
+}
+
+#buttons {
+	
+	float:left;
+	width: 200px;
+}
+
+#descriptionText {
+	
+	float:right;
+	margin-right: 200px;
+	width:300px;
+	color:white;	
+	background-color: rgba(100,100,100, 0.7);
+	border-radius:5px;
+}
+
+A {
+	
+	color : grey;
+}
+
+A:visited {
+	
+	color:cyan;
+}
+
+A:hover {
+	
+	color:orange;
+}
+
+.button {
+	
+	font-size: 30px;
+    color:white;
+    cursor:pointer;
+}
+
+.button:hover {
+
+    color:gray
+}
