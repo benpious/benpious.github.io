@@ -1,0 +1,18 @@
+#supportText {
+	
+	position: absolute;
+    top: 50%;
+	left:50%;
+	font-family: "Avenir Next", sans-serif !important;
+	color:white;
+}
+
+a {
+	
+	color:orange;
+}
+
+body {
+	
+	background-color:black;
+}
