@@ -51,6 +51,16 @@
         <!--<script src="http://threejs.org/examples/js/controls/OrbitControls.js"></script>-->
 
         <script>
+        
+            if (!window.WebGLRenderingContext) {
+                
+                var div = document.createElement("div");
+                div.innerHTML = '<p>Your browser does not support webGL. For the best experience please access this website from the latest version of Chrome or FireFox. Most mobile devices do not support webGL.</p>'
+                document.body.appendChild (div);
+            }
+            
+            else {
+                
             var scene = new THREE.Scene();
 
             var camera = new THREE.PerspectiveCamera(75, window.outerWidth / window.outerHeight, 0.1, 1000 );
@@ -167,7 +177,7 @@
                 }
 
             render();
-
+        }
             function resize () {
                 
                 renderer.setSize( window.outerWidth, window.outerHeight );
